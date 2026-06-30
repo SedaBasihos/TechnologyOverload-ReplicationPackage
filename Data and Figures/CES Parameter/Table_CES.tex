@@ -1,0 +1,52 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                &\multicolumn{1}{c}{logktlt}&\multicolumn{1}{c}{logktlt}&\multicolumn{1}{c}{logktlt}&\multicolumn{1}{c}{logktlt}&\multicolumn{1}{c}{logktlt}\\
+\hline
+logwtrt         &    0.604\sym{***}&    0.238\sym{***}&    0.775\sym{***}&    0.640\sym{***}&    0.285\sym{***}\\
+                &  (0.045)         &  (0.049)         &  (0.085)         &  (0.033)         &  (0.043)         \\
+\hline
+N               &       51         &       51         &       51         &       48         &       50         \\
+r2              &    0.991         &    0.996         &    0.988         &    0.995         &    0.997         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<.10\), \sym{**} \(p<.05\), \sym{***} \(p<.01\)}\\
+\end{tabular}
+}
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Elasticity Estimates under Biased Technological Change}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{logwtrt}&\multicolumn{1}{c}{logwtrt}&\multicolumn{1}{c}{logwtrt}&\multicolumn{1}{c}{logwtrt}&\multicolumn{1}{c}{logwtrt}\\
+\hline
+logktlt             &       1.307\sym{***}&       1.324\sym{***}&       1.213\sym{***}&       1.274\sym{***}&       1.742\sym{***}\\
+                    &     (0.097)         &     (0.140)         &     (0.138)         &     (0.080)         &     (0.262)         \\
+\hline
+N                   &          51         &          51         &          51         &          48         &          50         \\
+r2                  &       0.983         &       0.990         &       0.982         &       0.987         &       0.986         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<.10\), \sym{**} \(p<.05\), \sym{***} \(p<.01\)}\\
+\end{tabular}
+\end{table}
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Reciprocal Elasticity Estimates (Delta-Method SE)}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{OLS}&\multicolumn{1}{c}{GLS}&\multicolumn{1}{c}{GIV}&\multicolumn{1}{c}{Saikkonen}&\multicolumn{1}{c}{Lagged OLS}\\
+\hline
+recip               &       0.765\sym{***}&       0.755\sym{***}&       0.824\sym{***}&       0.785\sym{***}&       0.574\sym{***}\\
+                    &     (0.057)         &     (0.080)         &     (0.094)         &     (0.049)         &     (0.086)         \\
+\hline
+\(N\)               &          51         &          51         &          51         &          48         &          50         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<.10\), \sym{**} \(p<.05\), \sym{***} \(p<.01\)}\\
+\end{tabular}
+\end{table}
