@@ -1,3 +1,4 @@
 # TechnologyOverload-ReplicationPackage
 Technology Overload? Macroeconomic Implications of Accelerated Obsolescence
-Replication Files
+Replication Files. 
+Refer to README.pdf
